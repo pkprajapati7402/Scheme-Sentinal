@@ -1,0 +1,137 @@
+[
+  {
+    "id": "gold-001",
+    "schemeId": "nsp-post-matric-sc",
+    "sourceUrl": "https://scholarships.gov.in/scheme/sc",
+    "text": "Post Matric Scholarships Scheme for SC Students. The last date for submission of online applications for Academic Year 2026-27 is 31-10-2026. Institute verification must be completed by 15-11-2026. Applicable for students pursuing post-matric courses (UG and PG). Annual family income should not exceed ₹2,50,000 per annum from all sources. Candidate must belong to Scheduled Caste (SC) category. Required Documents: Caste Certificate, Income Certificate, Bonafide Student Certificate, Bank Passbook copy showing Aadhaar seeded account.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-10-31",
+        "instituteVerification": "2026-11-15",
+        "status": "open"
+      },
+      "criteria": {
+        "courseLevels": ["ug", "pg"],
+        "categories": ["sc"],
+        "maxFamilyIncomeInr": 250000
+      },
+      "documentsRequired": [
+        "income_certificate",
+        "category_certificate",
+        "bonafide_certificate",
+        "bank_passbook_or_statement"
+      ]
+    }
+  },
+  {
+    "id": "gold-002",
+    "schemeId": "nsp-post-matric-sc-extended",
+    "sourceUrl": "https://scholarships.gov.in/scheme/sc/notice",
+    "text": "URGENT NOTICE: The last date for submission of online application has been extended up to 30-11-2026. Institute verification deadline has been revised to 15-12-2026. Applicable for post-matric courses (UG and PG). Family income limit ₹2,50,000.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-11-30",
+        "instituteVerification": "2026-12-15",
+        "status": "extended"
+      },
+      "criteria": {
+        "courseLevels": ["ug", "pg"],
+        "maxFamilyIncomeInr": 250000
+      },
+      "documentsRequired": []
+    }
+  },
+  {
+    "id": "gold-003",
+    "schemeId": "nsp-merit-cum-means",
+    "sourceUrl": "https://scholarships.gov.in/scheme/mcm",
+    "text": "Merit Cum Means Scholarship for Professional and Technical Courses CS. Last date to apply is 31 October 2026. Annual income from all sources must not exceed ₹2.5 lakh. Minimum 50% marks in the previous final examination. Required documents: Income Certificate, Bonafide Certificate.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-10-31",
+        "status": "open"
+      },
+      "criteria": {
+        "maxFamilyIncomeInr": 250000
+      },
+      "documentsRequired": ["income_certificate", "bonafide_certificate"]
+    }
+  },
+  {
+    "id": "gold-004",
+    "schemeId": "up-post-matric-obc",
+    "sourceUrl": "https://scholarship.up.gov.in/notice",
+    "text": "उत्तर प्रदेश छात्रवृत्ति योजना: ऑनलाइन आवेदन करने की अंतिम तिथि 31-10-2026 है। यह योजना अन्य पिछड़ा वर्ग (OBC) के छात्रों के लिए है। परिवार की वार्षिक आय ₹2,00,000 से कम होनी चाहिए। आवश्यक दस्तावेज: आय प्रमाण पत्र (Income Certificate), जाति प्रमाण पत्र (Caste Certificate)।",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-10-31",
+        "status": "open"
+      },
+      "criteria": {
+        "categories": ["obc"]
+      },
+      "documentsRequired": ["income_certificate", "category_certificate"]
+    }
+  },
+  {
+    "id": "gold-005",
+    "schemeId": "blank-advisory-page",
+    "sourceUrl": "https://scholarships.gov.in/guidelines",
+    "text": "General Advisory for Students: Please keep your mobile number updated with Aadhaar and bank account. Do not share your OTP or password with unauthorized personnel. Ensure accurate IFSC code.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": null,
+        "instituteVerification": null,
+        "status": null
+      },
+      "criteria": {
+        "maxFamilyIncomeInr": null,
+        "courseLevels": null
+      },
+      "documentsRequired": []
+    }
+  },
+  {
+    "id": "gold-006",
+    "schemeId": "aicte-pragati",
+    "sourceUrl": "https://www.aicte-india.org/pragati",
+    "text": "AICTE Pragati Scholarship Scheme for Girl Students (Degree/Diploma). Online application deadline is 31/10/2026. Exclusively for female students admitted to 1st year of Degree/Diploma. Family income limit not more than ₹8,00,000 per annum.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-10-31",
+        "status": "open"
+      },
+      "criteria": {},
+      "documentsRequired": []
+    }
+  },
+  {
+    "id": "gold-007",
+    "schemeId": "central-sector-scheme",
+    "sourceUrl": "https://scholarships.gov.in/csss",
+    "text": "Central Sector Scheme of Scholarships for College and University Students. The portal closes on 15-11-2026. Applicants must have secured above 80th percentile in Class 12 board examination. Income of parents should not exceed ₹4,50,000 per annum.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-11-15",
+        "status": "open"
+      },
+      "criteria": {},
+      "documentsRequired": []
+    }
+  },
+  {
+    "id": "gold-008",
+    "schemeId": "begum-hazrat-mahal",
+    "sourceUrl": "https://scholarships.gov.in/bhm",
+    "text": "Begum Hazrat Mahal National Scholarship. Last date for registration is 31-10-2026. Specifically for meritorious girl students belonging to notified minority communities studying in classes 9 to 12. Income limit ₹2,00,000.",
+    "expected": {
+      "deadlines": {
+        "freshApplication": "2026-10-31",
+        "status": "open"
+      },
+      "criteria": {},
+      "documentsRequired": []
+    }
+  }
+]
+

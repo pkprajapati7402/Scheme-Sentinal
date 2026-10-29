@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+.env.local
+data/profile.yaml
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/raw/
+data/private/
+
+# Dependencies and build
+node_modules/
+dist/
+
+# Logs and coverage
+*.log
+coverage/
+.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+

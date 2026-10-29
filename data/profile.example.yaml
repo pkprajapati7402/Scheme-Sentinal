@@ -1,0 +1,22 @@
+# Synthetic Profile for Demonstrations, Testing & Publication
+# (Sensitive real data should NEVER be committed to git)
+id: "friend-synthetic"
+displayName: "Aman Sharma"
+fullNameOnDocuments: "Aman Sharma"
+language: "en"
+homeState: "Uttar Pradesh"
+studyState: "Delhi"
+courseLevel: "ug"
+courseName: "B.Tech Computer Science"
+yearOfStudy: 2
+institutionType: "government"
+category: "obc"
+minority: false
+gender: "male"
+hasDisability: false
+annualFamilyIncomeInr: 200000
+lastExamPercent: 78.5
+bankAccountAadhaarSeeded: true
+isRenewal: {}
+telegramChatId: ""
+

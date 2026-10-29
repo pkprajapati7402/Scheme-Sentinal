@@ -1,0 +1,46 @@
+{
+  "name": "scheme-sentinel",
+  "version": "0.1.0",
+  "description": "A durable, local-first, open-model agent that watches Indian scholarship sources for one real student",
+  "type": "module",
+  "scripts": {
+    "dev:worker": "tsx src/temporal/worker.ts",
+    "dev:api": "tsx src/api/server.ts",
+    "dev:bot": "tsx src/notify/telegram.ts",
+    "seed": "tsx scripts/seed.ts",
+    "schedules:create": "tsx src/temporal/schedules.ts create",
+    "schedules:delete": "tsx src/temporal/schedules.ts delete",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx src/eval/runner.ts",
+    "report": "tsx scripts/make-report.ts",
+    "demo:kill-resume": "tsx scripts/demo-kill-resume.ts",
+    "demo:replay": "tsx scripts/demo-replay.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@mastra/core": "^1.80.0",
+    "@temporalio/activity": "^1.25.0",
+    "@temporalio/client": "^1.25.0",
+    "@temporalio/worker": "^1.25.0",
+    "@temporalio/workflow": "^1.25.0",
+    "cheerio": "^1.0.0",
+    "diff": "^7.0.0",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.14",
+    "pdf-parse": "^1.1.1",
+    "robots-parser": "^3.0.1",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@temporalio/testing": "^1.25.0",
+    "@types/diff": "^7.0.0",
+    "@types/node": "^22.10.2",
+    "@types/pdf-parse": "^1.1.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

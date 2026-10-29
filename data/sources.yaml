@@ -1,0 +1,24 @@
+- id: nsp-home
+  url: "https://scholarships.gov.in/"
+  kind: html
+  trustTier: 1
+  pollMinutes: 360
+
+- id: nsp-post-matric-sc
+  url: "https://scholarships.gov.in/scheme/post-matric-sc"
+  kind: html
+  trustTier: 1
+  pollMinutes: 360
+
+- id: pib-education
+  url: "https://pib.gov.in/PressReleasePage.aspx"
+  kind: html
+  trustTier: 1
+  pollMinutes: 360
+
+- id: aggregator-buddy
+  url: "https://www.buddy4study.com/scholarships"
+  kind: html
+  trustTier: 3
+  pollMinutes: 720
+

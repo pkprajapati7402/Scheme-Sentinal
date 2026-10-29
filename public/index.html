@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheme Sentinel — Scholarship Agent</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Header -->
+    <header class="top-nav">
+      <div class="brand">
+        <span class="shield-icon">🛡️</span>
+        <div>
+          <h1>Scheme Sentinel</h1>
+          <p class="tagline">Local-First Open-Model Scholarship Sentinel</p>
+        </div>
+      </div>
+      <div class="system-pills">
+        <span class="pill pill-green"><span class="dot"></span> Local Gemma 4</span>
+        <span class="pill pill-blue"><span class="dot"></span> Temporal Durable</span>
+        <span class="pill pill-purple"><span class="dot"></span> ₹0 Compute</span>
+      </div>
+    </header>
+
+    <!-- Disclaimer Alert -->
+    <div class="disclaimer-banner">
+      <span class="warning-icon">⚠️</span>
+      <p>
+        <strong>Independent student project.</strong> Not affiliated with or endorsed by any government body.
+        Dates and eligibility change frequently. <strong>Always verify on the official portal</strong> (e.g. scholarships.gov.in) before acting.
+      </p>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" data-tab="overview">📊 Overview</button>
+      <button class="tab-btn" data-tab="schemes">🔍 Scheme & Evidence View</button>
+      <button class="tab-btn" data-tab="changes">🔄 What Changed (Diffs)</button>
+      <button class="tab-btn" data-tab="docs">📄 Documents Checklist</button>
+      <button class="tab-btn" data-tab="alerts">🔔 Alert Log</button>
+      <button class="tab-btn" data-tab="metrics">📈 Pipeline Metrics</button>
+    </nav>
+
+    <!-- Main Content Panes -->
+    <main class="content-container">
+      <!-- 1. Overview Tab -->
+      <section id="tab-overview" class="tab-content active">
+        <div class="summary-cards">
+          <div class="metric-card">
+            <span class="metric-label">Watched Schemes</span>
+            <span class="metric-val" id="metric-watched-count">0</span>
+            <span class="metric-sub">Active in registry</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Likely Eligible</span>
+            <span class="metric-val text-green" id="metric-eligible-count">0</span>
+            <span class="metric-sub">Verified against profile</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Pending Verification</span>
+            <span class="metric-val text-amber" id="metric-unknown-count">0</span>
+            <span class="metric-sub">Needs student check</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Next Deadline</span>
+            <span class="metric-val text-red" id="metric-closest-deadline">--</span>
+            <span class="metric-sub" id="metric-days-left">-- days remaining</span>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h2>Active Scholarships Lifecycle</h2>
+          <button class="btn-refresh" onclick="loadOverview()">↻ Refresh</button>
+        </div>
+        <div class="schemes-grid" id="schemes-list">
+          <div class="loader">Loading scholarships...</div>
+        </div>
+      </section>
+
+      <!-- 2. Scheme & Evidence View -->
+      <section id="tab-schemes" class="tab-content">
+        <div class="section-header">
+          <h2>Scheme Details & Verbatim Evidence</h2>
+        </div>
+        <div id="scheme-detail-container">
+          <p class="hint-text">Select a scheme from Overview to inspect verbatim quotes and criteria.</p>
+        </div>
+      </section>
+
+      <!-- 3. What Changed (Diffs) -->
+      <section id="tab-changes" class="tab-content">
+        <div class="section-header">
+          <h2>Recent Source Changes & Material Diff Gating</h2>
+        </div>
+        <div id="changes-container">
+          <div class="loader">Loading changes...</div>
+        </div>
+      </section>
+
+      <!-- 4. Documents Checklist -->
+      <section id="tab-docs" class="tab-content">
+        <div class="section-header">
+          <h2>Required Document Readiness</h2>
+        </div>
+        <div id="docs-container">
+          <div class="loader">Loading documents...</div>
+        </div>
+      </section>
+
+      <!-- 5. Alert Log -->
+      <section id="tab-alerts" class="tab-content">
+        <div class="section-header">
+          <h2>Idempotent Alert History</h2>
+        </div>
+        <div id="alerts-container">
+          <div class="loader">Loading alerts...</div>
+        </div>
+      </section>
+
+      <!-- 6. Metrics -->
+      <section id="tab-metrics" class="tab-content">
+        <div class="section-header">
+          <h2>System Performance & Observability</h2>
+        </div>
+        <div id="metrics-container">
+          <div class="loader">Loading metrics...</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Built for the Hacktoberfest Weekend Challenge: Build for a Friend • Local-First Architecture</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

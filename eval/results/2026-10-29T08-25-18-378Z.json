@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-29T08:25:18.378Z",
+  "model": "gemma4:e4b",
+  "totalSamples": 8,
+  "deadlineExactMatchPercent": 75,
+  "criteriaF1Percent": 100,
+  "documentsF1Percent": 100,
+  "hallucinationsProposed": 1,
+  "hallucinationsCaughtByVerifier": 1,
+  "verifierSaveRatePercent": 100,
+  "latencyP50Ms": 8,
+  "latencyP95Ms": 61,
+  "costInr": 0
+}

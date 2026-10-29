@@ -1,0 +1,252 @@
+- id: nsp-post-matric-sc
+  name: "Post Matric Scholarships Scheme for SC Students"
+  authority: "Ministry of Social Justice and Empowerment"
+  level: central
+  portal: nsp
+  sourceIds:
+    - nsp-home
+    - nsp-post-matric-sc
+  academicYear: "2026-27"
+  criteria:
+    courseLevels:
+      value: ["ug", "pg", "diploma"]
+      evidence:
+        quote: "Applicable for students pursuing post-matric courses (UG and PG)."
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+    categories:
+      value: ["sc"]
+      evidence:
+        quote: "Candidate must belong to Scheduled Caste (SC) category."
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+    maxFamilyIncomeInr:
+      value: 250000
+      evidence:
+        quote: "Annual family income should not exceed ₹2,50,000 per annum from all sources."
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+  documentsRequired:
+    - docType: category_certificate
+      evidence:
+        quote: "Caste Certificate issued by competent authority"
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+    - docType: income_certificate
+      evidence:
+        quote: "Income Certificate issued for the financial year"
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+    - docType: bonafide_certificate
+      evidence:
+        quote: "Bonafide Student Certificate from the institute"
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+    - docType: bank_passbook_or_statement
+      evidence:
+        quote: "Bank Passbook copy showing Aadhaar seeded account"
+        sourceUrl: "https://scholarships.gov.in/scheme/post-matric-sc"
+        snapshotId: "seed-sc"
+  deadlines:
+    freshApplication:
+      date: "2026-10-31"
+      evidence:
+        quote: "The last date for submission of online applications for Academic Year 2026-27 is 31-10-2026."
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-sc"
+    renewal:
+      date: "2026-10-31"
+      evidence:
+        quote: "Closing dates for student application is 31-10-2026"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-sc"
+    instituteVerification:
+      date: "2026-11-15"
+      evidence:
+        quote: "Institute verification must be completed by 15-11-2026."
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-sc"
+    stateVerification: null
+  lastVerifiedBy: "human"
+  lastVerifiedAt: "2026-10-29"
+
+- id: nsp-merit-cum-means
+  name: "Merit Cum Means Scholarship for Professional and Technical Courses CS"
+  authority: "Ministry of Minority Affairs"
+  level: central
+  portal: nsp
+  sourceIds:
+    - nsp-home
+  academicYear: "2026-27"
+  criteria:
+    courseLevels:
+      value: ["ug", "pg"]
+      evidence:
+        quote: "Pursuing professional or technical courses at graduate or postgraduate level"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-mcm"
+    maxFamilyIncomeInr:
+      value: 250000
+      evidence:
+        quote: "Annual family income not exceeding ₹2.50 lakh"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-mcm"
+    minPercent:
+      value: 50
+      evidence:
+        quote: "Minimum 50% marks in previous final examination"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-mcm"
+  documentsRequired:
+    - docType: income_certificate
+      evidence: null
+    - docType: bonafide_certificate
+      evidence: null
+    - docType: marksheet_last_exam
+      evidence: null
+  deadlines:
+    freshApplication:
+      date: "2026-10-31"
+      evidence:
+        quote: "Closing dates for student application is 31-10-2026"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-mcm"
+    renewal: null
+    instituteVerification:
+      date: "2026-11-15"
+      evidence: null
+    stateVerification: null
+  lastVerifiedBy: "human"
+  lastVerifiedAt: "2026-10-29"
+
+- id: central-sector-csss
+  name: "Central Sector Scheme of Scholarship for College and University Students (CSSS)"
+  authority: "Department of Higher Education"
+  level: central
+  portal: nsp
+  sourceIds:
+    - nsp-home
+  academicYear: "2026-27"
+  criteria:
+    courseLevels:
+      value: ["ug", "pg"]
+      evidence:
+        quote: "Regular college or university students"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-csss"
+    maxFamilyIncomeInr:
+      value: 450000
+      evidence:
+        quote: "Income of parents should not exceed ₹4,50,000 per annum"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-csss"
+  documentsRequired:
+    - docType: income_certificate
+      evidence: null
+    - docType: marksheet_last_exam
+      evidence: null
+    - docType: bonafide_certificate
+      evidence: null
+  deadlines:
+    freshApplication:
+      date: "2026-10-31"
+      evidence:
+        quote: "Closing dates for student application is 31-10-2026"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-csss"
+    renewal:
+      date: "2026-10-31"
+      evidence: null
+    instituteVerification:
+      date: "2026-11-15"
+      evidence: null
+    stateVerification: null
+  lastVerifiedBy: "human"
+  lastVerifiedAt: "2026-10-29"
+
+- id: up-post-matric-obc
+  name: "UP Post Matric Scholarship for OBC Students"
+  authority: "Backward Classes Welfare Department, Uttar Pradesh"
+  level: state
+  portal: state-portal
+  sourceIds:
+    - nsp-home
+  academicYear: "2026-27"
+  criteria:
+    states:
+      value: ["uttar pradesh"]
+      evidence:
+        quote: "Students domicile of Uttar Pradesh"
+        sourceUrl: "https://scholarship.up.gov.in"
+        snapshotId: "seed-up"
+    categories:
+      value: ["obc"]
+      evidence:
+        quote: "Belonging to Other Backward Classes (OBC)"
+        sourceUrl: "https://scholarship.up.gov.in"
+        snapshotId: "seed-up"
+    maxFamilyIncomeInr:
+      value: 200000
+      evidence:
+        quote: "Annual income limit ₹2,00,000"
+        sourceUrl: "https://scholarship.up.gov.in"
+        snapshotId: "seed-up"
+  documentsRequired:
+    - docType: income_certificate
+      evidence: null
+    - docType: category_certificate
+      evidence: null
+    - docType: domicile_certificate
+      evidence: null
+  deadlines:
+    freshApplication:
+      date: "2026-10-31"
+      evidence:
+        quote: "Last date to apply online is 31-10-2026"
+        sourceUrl: "https://scholarship.up.gov.in"
+        snapshotId: "seed-up"
+    renewal: null
+    instituteVerification: null
+    stateVerification: null
+  lastVerifiedBy: "human"
+  lastVerifiedAt: "2026-10-29"
+
+- id: aicte-pragati
+  name: "AICTE Pragati Scholarship for Girl Students"
+  authority: "All India Council for Technical Education (AICTE)"
+  level: central
+  portal: nsp
+  sourceIds:
+    - nsp-home
+  academicYear: "2026-27"
+  criteria:
+    genderRestriction:
+      value: "female_only"
+      evidence:
+        quote: "Scheme is exclusively for female students"
+        sourceUrl: "https://www.aicte-india.org"
+        snapshotId: "seed-pragati"
+    maxFamilyIncomeInr:
+      value: 800000
+      evidence:
+        quote: "Family income limit ₹8,00,000 per annum"
+        sourceUrl: "https://www.aicte-india.org"
+        snapshotId: "seed-pragati"
+  documentsRequired:
+    - docType: income_certificate
+      evidence: null
+    - docType: bonafide_certificate
+      evidence: null
+  deadlines:
+    freshApplication:
+      date: "2026-10-31"
+      evidence:
+        quote: "Last date is 31-10-2026"
+        sourceUrl: "https://scholarships.gov.in"
+        snapshotId: "seed-pragati"
+    renewal: null
+    instituteVerification: null
+    stateVerification: null
+  lastVerifiedBy: "human"
+  lastVerifiedAt: "2026-10-29"
+
